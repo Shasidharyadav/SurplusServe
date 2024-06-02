@@ -16,7 +16,7 @@ Welcome to the Food Waste Management Platform! Our mission is to connect food do
 
 ## 📸 Screenshots
 
-![Homepage](./image/hom.png)
+![Homepage](./image/home.png)
 ![Signup](./image/signup.png)
 ![Dashboard](./image/dashboard.png)
 
