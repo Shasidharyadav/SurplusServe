@@ -17,8 +17,8 @@ Welcome to the Food Waste Management Platform! Our mission is to connect food do
 ## 📸 Screenshots
 
 ![Homepage](./image/home.png)
-![Signup](./screenshots/signup.png)
-![Login](./screenshots/login.png)
+![Signup](./image/signup.png)
+![Dashboard](./image/dashboard.png)
 
 
 ### Prerequisites
@@ -37,4 +37,4 @@ Welcome to the Food Waste Management Platform! Our mission is to connect food do
 
 If you have any questions or support, please email us at shashidharyadvr@gmail.com.
 
-	“Together, we can make a difference in reducing food waste and feeding those in need.”
+	###“Together, we can make a difference in reducing food waste and feeding those in need.”
