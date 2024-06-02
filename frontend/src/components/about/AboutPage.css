@@ -1,0 +1,47 @@
+.about-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background: #fff; /* Light background for the content */
+    color: #333; /* Dark color for text for readability */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .about-page h1, .about-page h2 {
+    color: #2C3E50; /* Dark blue for heading */
+  }
+  
+  .about-page ul, .about-page ol {
+    padding-left: 20px;
+  }
+  
+  .about-page img {
+    width: 100%; /* Full width images, adjust as necessary */
+    max-width: 400px; /* Limiting max width of images */
+    margin-top: 10px; /* Space above images */
+    border-radius: 8px; /* Rounded corners for images */
+  }
+  
+  .about-page a {
+    color: #3498DB; /* Blue color for links */
+    text-decoration: none; /* No underline */
+  }
+  
+  .about-page a:hover {
+    text-decoration: underline; /* Underline on hover for better interactivity */
+  }
+  
+  .about-page footer {
+    font-style: italic;
+    margin-top: 20px;
+    color: #7f8c8d; /* Gray color for footer, less emphasis */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .about-page {
+      padding: 10px;
+    }
+  }
+  

@@ -1,46 +1,56 @@
+/* General styles for light theme */
 body {
-    background-color: #121212;
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .header, .footer {
-    background-color: #1f1f1f;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  .header a, .footer p {
-    color: #ffffff;
-  }
-  
-  .login-container, .signup-container, .donor-container, .receiver-container, .notification-container {
-    margin: 2rem auto;
-    padding: 2rem;
-    max-width: 500px;
-    background-color: #1f1f1f;
-    border-radius: 8px;
-  }
-  
-  .login-container input, .signup-container input, .signup-container select, .donor-container input, .donor-container button, .signup-container button {
-    display: block;
-    width: 100%;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 4px;
-  }
-  
-  button {
-    background-color: #e6ea00;
-    color: #ffffff;
-    padding: 0.75rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #3700b3;
-  }
-  
+  background-color: #fdf8f8;
+  color: #333333;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.header, .footer {
+  background-color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header a, .footer p {
+  color: #333333;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #007bff;
+}
+
+.login-container, .signup-container, .donor-container, .receiver-container, .notification-container {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 500px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-container input, .signup-container input, .signup-container select, .donor-container input, .donor-container button, .signup-container button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+button {
+  background-color: #007bff;
+  color: #e47070;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

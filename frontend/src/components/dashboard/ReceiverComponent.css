@@ -1,0 +1,58 @@
+.receiver-container{
+    width: 500px;
+    margin: 30px;
+}
+.receiver-dashboard {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light grey background for the dashboard */
+    color: #333; /* Standard text color for readability */
+    font-family: 'Arial', sans-serif; /* Using a common web-safe font */
+  }
+  
+  .receiver-dashboard h1, .receiver-dashboard h2 {
+    color: #2a2f45; /* Dark blue for headers for better visibility and emphasis */
+  }
+  
+  .receiver-dashboard p {
+    line-height: 1.6; /* Increased line height for better readability */
+  }
+  
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px; /* Space between categories */
+    margin-top: 20px; /* Space above the category grid */
+  }
+  
+  .category {
+    background-color: #ffffff; /* White background for category boxes */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    padding: 15px; /* Padding inside each category box */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .category:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+  }
+  
+  .category h3 {
+    margin-top: 0;
+    color: #17a2b8; /* Using a teal color for sub-headers */
+  }
+  
+  ol, ul {
+    padding-left: 20px; /* Proper indentation for lists */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Space between list items */
+  }
+  
+  @media (max-width: 768px) {
+    .categories {
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+  }
+  

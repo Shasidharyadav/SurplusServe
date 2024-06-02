@@ -17,7 +17,7 @@ app.use(express.json());
 
 // Enable CORS
 app.use(cors({
-  origin: 'http://localhost:5000/api', // Replace with your frontend URL
+  origin: 'http://localhost:3000', 
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
@@ -30,5 +30,5 @@ app.use('/api/fooditems', foodItemRoutes);
 app.use(errorHandler);
 
 // Start the Server
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

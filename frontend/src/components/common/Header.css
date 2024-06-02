@@ -1,31 +1,58 @@
-/* General header styles */
+/* Header.css */
 .header {
-    background-color: #333;
-    padding: 10px 0;
+  background-color: #fff; /* Light background for the header */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  padding: 10px 20px; /* Padding around the content */
+  margin: 10px;
+  height: 70px;
+}
+
+.header-logo {
+  height: 75px; /* Fixed height for your logo */
+  margin-right: 100px; /* Space between logo and nav items */
+  float: left; /* Align logo to the left */
+  margin-bottom: 10px;
+  margin-top: auto;
+  width: 100px;
+}
+
+nav ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Align items properly */
+  display: flex; /* Align items in a row */
+  align-items: center; /* Center items vertically */
+}
+
+nav ul li {
+  margin: 0 10px; /* Spacing between nav items */
+  align-items: center;
+  margin-top: 25px;
+}
+
+nav ul li a {
+  text-decoration: none; /* No underline for links */
+  color: #333; /* Dark grey color for text */
+  font-weight: 500; /* Make font slightly bolder */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover, nav ul li a:focus {
+  color: #007bff; /* Highlight color when hovered or focused */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .header {
+    text-align: center; /* Center everything on smaller screens */
   }
-  
-  /* Navigation styles */
-  .header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+
+  .header-logo {
+    display: block; /* Ensure logo is centered */
+    margin: 0 auto 10px; /* Auto margins for horizontal centering and spacing below */
   }
-  
-  .header nav ul li {
-    margin: 0 15px;
+
+  nav ul {
+    justify-content: center; /* Center nav items */
   }
-  
-  /* Link styles */
-  .header nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    transition: color 0.3s;
-  }
-  
-  .header nav ul li a:hover {
-    color: #ff6347; /* Change the color on hover */
-  }
-  
+}

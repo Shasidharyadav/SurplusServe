@@ -8,10 +8,12 @@ import DonorComponent from './components/dashboard/DonorComponent';
 import ReceiverComponent from './components/dashboard/ReceiverComponent';
 import NotificationComponent from './components/NotificationComponent';
 import Homepage from './components/Homepage/Homepage';
+import './App.css'; // Make sure your stylesheet is imported
+import AboutPage from './components/about/AboutPage'; // Adjust the path as necessary
 
 function App() {
   return (
-    <>
+    <div className="app-background">
       <Header />
       <main>
         <Routes>
@@ -21,10 +23,11 @@ function App() {
           <Route path="/donor" element={<DonorComponent />} />
           <Route path="/receiver" element={<ReceiverComponent />} />
           <Route path="/notifications" element={<NotificationComponent />} />
+          <Route path="/about" element={<AboutPage />} /> {/* New route for About page */}
         </Routes>
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 
