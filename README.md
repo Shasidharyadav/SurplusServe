@@ -1,6 +1,6 @@
 # 🍽️ Food Waste Management Platform
 
-Welcome to the Food Waste Management Platform! Our mission is to connect food donors with recipients to reduce food waste and hunger. 🌍✨
+Welcome to the Food Waste Management Platform! Our mission is to connect food donors with recipient to reduce food waste and hunger. 🌍✨
 
 ## 🚀 Features
 
